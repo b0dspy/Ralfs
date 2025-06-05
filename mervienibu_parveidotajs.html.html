@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+
+    <meta charset="UTF-8" />
+    <title>mervienibu parveidotajs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <center>
+          <h1>Ultimate pārveidotājs 3000</h1>
+    </center> 
+
+<div class="flex-container">
+  <div class="podzina" onclick="triggerButton('km-m')"><button class="editbtn" data-type="km-m">km-m</button></div>
+  <div class="podzina" onclick="triggerButton('l-ml')"><button class="editbtn" data-type="l-ml">L-ml</button></div>
+  <div class="podzina" onclick="triggerButton('c-f')"><button class="editbtn" data-type="c-f">C-F</button></div>
+  <div class="podzina" onclick="triggerButton('h-min')"><button class="editbtn" data-type="h-min">h-min</button></div>
+  <div class="podzina" onclick="triggerButton('hp-kw')"><button class="editbtn" data-type="hp-kw">HP-kW</button></div>
+</div>
+
+
+
+<div class="kilometri-section">
+  <p id="main2">Kilometri:</p>
+  <input type="text" id="Kilometri" ><br>
+</div>
+
+
+
+
+
+<div class="metri-section">
+  <p id="main1">Metri:</p>
+  <input type="text" id="Metri"><br>
+</div>
+
+<div class="pirmapoga">
+  <input type="button" value="Pārveidot" id="pirmapoga">
+</div>
+
+<label class="switch">
+  <input id="on" type="checkbox">
+  <span class="slider round"></span>
+</label>
+
+<p id="info"></p>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+h1 {
+    font-size: 35px;
+    color: brown;
+}
+body {
+    background-image: url(https://img.margupasaule.lv/img/12206/xl/3643--ilgaka-piegade--zime---stop-430mm--430mm.webp);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: fixed;
+    background-size: auto;
+}
+
+.kilometri-section {
+  margin-top: 90px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  position: center;
+}
+
+.metri-section {
+  margin-top: 130px;
+  text-align: center;
+  color: white;
+  position: center;
+  padding: 5px;
+}
+
+#Kilometri {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#Metri {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.pirmapoga {
+  position: fixed;
+  top: 370px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+
+
+
+input[type=button] {
+  background-color: darkred;
+  border: white;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.switch {
+  position: fixed;
+  top: 560px; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: 60px;
+  height: 34px;
+}
+
+/* Slēdža stils */
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 0px solid #ddd;
+}
+
+th:hover {background-color: darkred;}
+
+table {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.podzina {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.podzina:hover {
+  background-color: darkred;
+}
+
+.editbtn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: brown;
+  cursor: pointer;
+}
+
+.editbtn:hover {
+  color: white;
+}
